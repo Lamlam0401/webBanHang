@@ -1,0 +1,19 @@
+body {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  font-family: Arial, sans-serif;
+}
+body h1 {
+  color: #060606;
+  text-decoration: underline;
+}
+body h5 {
+  color: #060606;
+  text-decoration: underline;
+}
+body p {
+  color: #060606;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=app.css.map */

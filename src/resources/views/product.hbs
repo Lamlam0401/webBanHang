@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <div class="jumbotron">
+    <h1 class="display-4">{{products.name}}</h1>
+    
+    <div class="row">
+        <div class="col-md-4">
+            {{#if products.image}}
+                <img src="{{products.image}}" class="img-fluid rounded" alt="{{products.name}}" style="max-height: 300px;">
+            {{else}}
+                <img src="/img/default-product.png" class="img-fluid rounded" alt="No image">
+            {{/if}}
+        </div>
+
+        <div class="col-md-8">
+            <p class="lead">Mô tả: {{products.description}}</p>
+            <hr class="my-4">
+            
+            <p class="h3 text-danger">Giá: {{products.price}} VNĐ</p>
+            
+            <p class="lead mt-4">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Mua ngay</a>
+              <a class="btn btn-success btn-lg" href="/" role="button">Quay lại cửa hàng</a>
+            </p>
+        </div>
+    </div>
+  </div>
+</div>

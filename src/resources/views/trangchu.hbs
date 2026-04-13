@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/css/app.css">
+<div class="row">
+    {{#each sanpham}}
+    <div class="col-sm-6 col-lg-4 mb-4 mt-4">
+        <a href="/product/{{this.productId}}">
+            <div class="card">
+                <img class="card-img-top" src="{{this.image}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    <p class="card-text">{{this.price}}</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </a>
+    </div>
+    {{/each}}
+</div>
